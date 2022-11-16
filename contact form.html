@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .center {
+            height: 600px;
+            width: 700px;
+            margin-left: 388px;
+            margin-top: 74px;
+            box-shadow: 1px 1px 18px black;
+        }
+        
+        .left {
+            height: 600px;
+            width: 350px;
+            float: left;
+            background-image: linear-gradient(to right, #ebebf8, #e7cbfd6e, #76d3f1fc);
+        }
+        
+        .right {
+            float: right;
+            height: 600px;
+            width: 350px;
+            background: url(b2.jpg);
+            background-size: cover;
+        }
+        
+        form {
+            margin: 22px;
+            width: 300px;
+        }
+        
+        label {
+            font-size: 19px;
+            margin-left: 9px;
+        }
+        
+        input {
+            font-size: 14px;
+            border: none;
+            margin: 7px;
+            width: 290px;
+            height: 35px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            margin-top: 60px
+        }
+        
+        button {
+            width: 195px;
+            height: 38px;
+            font-size: 22px;
+            background: blue;
+            color: white;
+            border: none;
+            margin-left: 56px;
+            margin-top: 11px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class="contact">
+            <div class="left">
+                <h1>Contact Now</h1>
+
+                <form>
+
+                    <label><i class="fa-solid fa-user"></i>&nbsp First Name</label>
+                    <input type="text" placeholder="First Name" required>
+                    <label><i class="fa-solid fa-user"></i>&nbsp Last Name</label>
+                    <input type="text" placeholder="Last Name" required>
+                    <label><i class="fa-solid fa-envelope"></i>&nbsp E-mail</label>
+                    <input type="text" placeholder="Enter Your E-mail" required>
+                    <label><i class="fa-solid fa-phone"></i>&nbsp Phone</label>
+                    <input type="text" placeholder="Enter Your Phone Number" required>
+                    <label><i class="fa-solid fa-calendar-days"></i>&nbsp Date of birth</label>
+                    <input type="date" placeholder="Enter Your Birth Date" required>
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

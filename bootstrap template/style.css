@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.my-navbar {
+    background: orange;
+}
+
+.my-logo {
+    font-size: 2rem !important;
+}
+
+.my-navbar a {
+    text-align: center;
+    color: white !important;
+    padding: 9px 30px !important;
+}
+
+#home {
+    padding: 6% 22% 9% 18%;
+    width: 100%;
+    height: auto;
+    background: orange;
+}
+
+#home h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+#home p {
+    color: white;
+    font-size: 2rem;
+}
+
+.my-btn {
+    background: orangered !important;
+    color: white !important;
+}
+
+.my-input {
+    margin-left: 15%;
+}
+
+#about {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.my-col-1 {
+    padding: 7% 10% !important;
+}
+
+#about h1 {
+    font-size: 3rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+.my-col-2 {
+    padding: 12% 0%;
+}
+
+#services {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+#services .my-icon {
+    color: orange;
+    font-size: 2rem;
+}
+
+#portfolio {
+    background: #c0c0c066;
+    height: auto;
+    width: 100%;
+}
+
+#customer {
+    background: #c0c0c066;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#customer h4 {
+    color: black !important;
+}
+
+.my-card1 {
+    padding: 3% 0% 3% 0%;
+}
+
+.slick-prev:before {
+    color: orange !important;
+}
+
+.slick-next:before {
+    color: orange !important;
+}
+
+.slick-dots li button:before {
+    color: orange !important;
+}
+
+#price .head {
+    background: orange;
+}
+
+#price .head h2 {
+    color: white;
+}
+
+#price .card-body {
+    border: 1px solid orange;
+    padding: 0px !important;
+}
+
+#price .price-btn {
+    background: orange;
+    color: white;
+}
+
+#contact {
+    background: #c0c0c066;
+    height: auto;
+    width: 100%;
+}
+
+#contact i {
+    text-transform: lowercase !important;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+@media screen and (min-width:100px) and (max-width:600px) {
+    #home h1 {
+        font-size: 2rem;
+        color: white;
+    }
+}
