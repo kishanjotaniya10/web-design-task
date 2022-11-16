@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loading img {
+            animation-name: loading;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes loading {
+            50% {
+                transform: rotate(180deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        img {
+            margin: 9% 39%;
+        }
+    </style>
+    <script src="jquery.js"></script>
+    <script>
+        const myTimeout = setTimeout(myGreeting, 2500);
+
+        function myGreeting() {
+            document.getElementById("content").innerHTML = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, rerum porro magnam culpa dolor iste laudantium neque! Quasi a nobis nam voluptas sunt quae, natus, rerum, eveniet accusantium ducimus officiis?"
+        }
+    </script>
+</head>
+
+<body>
+    <div class="loading">
+        <img src="images/round2.png" height="200px" width="200px">
+    </div>
+
+
+    <h1 id="content"></h1>
+
+
+</body>
+
+</html>

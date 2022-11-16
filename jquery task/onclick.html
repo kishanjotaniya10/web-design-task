@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='jquery.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $("#slideme").click(function() {
+
+                $("#slide1").fadeToggle();
+            })
+        })
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #slideme {
+            display: flex;
+            width: 100%;
+            height: 50px;
+            padding: 15px;
+            background-color: black;
+            color: white;
+        }
+        
+        #slideme h2 {
+            margin-top: 5px;
+            margin-left: 43%;
+            font-size: 2rem;
+        }
+        
+        #slide1 {
+            display: none;
+            margin-top: 6%;
+            margin-right: -2%;
+            margin-left: 4%;
+        }
+        
+        img {
+            width: 31%;
+            height: 215px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="slideme">
+        <h2>Cars</h2>
+    </div>
+    <div id="slide1">
+        <img src="images/c3.png">
+        <img src="images/c5.png">
+        <img src="images/c6.png">
+        <img src="images/c1.png">
+        <img src="images/c2.png">
+        <img src="images/c4.png">
+    </div>
+
+</body>
+
+</html>
